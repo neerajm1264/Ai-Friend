@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: #323a49;
+    min-height: 20vh;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10rem;
+    
+}
+.button-container {
+    cursor: pointer;
+}
+#Ai-Friend{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    margin: -2rem auto 0rem;
+    box-shadow: 0 0 40px #52ffa8;
+
+}
+#Ai-Friend img{
+    width: 80px;
+}
+.id{
+    text-align: center;
+    padding-top: 1rem;
+    color: #52ffa8;
+    font-weight: bolder;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+#advice {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 1rem 2rem;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 530px) {
+.container{
+    width: 80%;
+}
+}
