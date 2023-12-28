@@ -42,7 +42,20 @@ body{
     margin: 1rem 2rem;
     padding-bottom: 3rem;
 }
-
+.foot { 
+    font-size: 0.8rem;
+    align-self: flex-end;
+    text-align: center;
+    background-color: #4e5d73;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+} 
+.foot a { 
+    color: #52ffa8; 
+}
 @media (max-width: 530px) {
 .container{
     width: 80%;
